@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+header
+{
+    background-color: #113C67;
+    /* height: 500px; */
+}
+.nav-item
+{
+    color: #fff;
+    margin: 0px 15px;
+}
+.banner_img img
+{
+    width: 100%;
+}
+.banner h1
+{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #fff;
+}
+.banner p
+{
+    color: #fff;
+}
+/* End-section */
+.sec_hed
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.5;
+    color: #1C4C93;
+}
+.sec_para
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 14px;
+}
+.sec_btn
+{
+    margin-top: 24px;
+    
+}
+.btn-primary
+{
+    background-color: #0042A6;
+    border-radius: none;
+}
+.chair_content
+{
+    font-weight: 700;
+    margin-top: 18px;
+    font-size: 24px;
+    color: #2e5084;
+}
+.sec1_para
+{
+    /* font-size: 14px; */
+    width: 160px;
+}
+section b
+{
+    margin: auto;
+}
+.sub_hed
+{
+    width: 50%;
+    margin: auto;
+    font-size: 40px;
+    color: #1C4C93;
+}
+/* End-sec */
+.card-title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color:#104799;
+}
+.card-text
+{
+    width: 75%;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* End-card */
+.sub_para
+{
+    width: 50%;
+    margin: auto;
+    font-weight: 500;
+    font-size: 14px;
+}
+.fom_had
+{
+    color: #104799;
+    font-size: 24px;
+    font-weight: 800;
+}
+.fom_para
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 75%;
+}
+.form-control
+{
+    width: 60%;
+    font-size: 14px;
+
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: none;
+}
+@media only screen and (max-width:768px) {
+    .banner h1 {
+
+        font-size: 20px;
+        text-align: center;
+    }
+    .banner p {
+
+        font-size: 14px;
+        text-align: center;
+    }
+    .sec_1 {
+        text-align: center;
+    }
+    h2.sec_hed {
+
+        font-size: 20px;
+        text-align: center;
+    }
+    .sec_para {
+
+        font-size: 12px;
+        text-align: center;
+    }
+    .all_text {
+
+        text-align: center;
+    }
+    .sec1_para {
+
+       margin: auto;
+    }
+    .imgClass {
+        margin-top: 20px;
+    }
+    .sub_hed {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:375px) {
+
+    .card-title {
+
+        font-size: 16px;
+        text-align: center;
+    }
+    .card-text {
+
+        font-size: 14px;
+        margin: auto;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
